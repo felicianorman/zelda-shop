@@ -1,0 +1,68 @@
+main {
+  background-color: #f9f4ce;
+  height: 100vh;
+}
+.container {
+  padding-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+
+  &--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+  }
+
+  button {
+    width: 140px;
+    padding: 10px;
+    background-color: #432F0F;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-family: "Press Start 2P", cursive;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 1px 1px rgba(145, 100, 100, 0.5);
+    &:hover {
+        cursor: pointer;
+    }
+  }
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+ 
+  background-color: white;
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 1px 1px 1px 1px rgba(145, 100, 100, 0.5);
+
+  .card--holder {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    background-color: #9fc184;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+    &__price {
+      font-family: "Press Start 2P", cursive;
+    }
+
+    .rupee {
+      width: 22%;
+      padding-right: 3px;
+    }
+  }
+}
